@@ -1,4 +1,4 @@
 document.addEventListener("DOMContentLoaded", () => {
     const changeText = document.getElementById('text');
-    changeText.innerText = "This is really cool!";
+    changeText.innerHTML = "This is really cool!";
   })
